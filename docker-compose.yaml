@@ -8,6 +8,7 @@ services:
     environment:
       EULA: "TRUE"
       TYPE: "FORGE"
+      VERSION: "1.16.5"
     tty: true
     stdin_open: true
     restart: always
