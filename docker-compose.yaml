@@ -10,6 +10,8 @@ services:
       EULA: "TRUE"
       VERSION: "1.16.5"
       TYPE: "FORGE"
+      ENABLE_RCON: "true" 
+      RCON_PASSWORD: ""
       FORGE_INSTALLER: "forge-1.16.5-36.2.0-installer.jar"
     tty: true
     stdin_open: true
